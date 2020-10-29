@@ -14,12 +14,22 @@ footer
 
 }
 
-.carousel {
-  height: auto;
+.text-phone
+{
+  font-size: 1rem;
+}
+
+.image-phone img
+{
+  height: 200px;
+  width: 100%;
   overflow: hidden;
 }
-.carousel-inner {
-  overflow: visible;
+
+.container-fluid
+{
+  height: auto;
+  width: auto;
 }
 
 .navbar-brand img {width: 100px}
@@ -28,10 +38,6 @@ footer
 {
     width:120px;
     padding:5px;
-}
-.carousel-inner
-{
-  height: 400px;
 }
 
 .btn-circle
@@ -50,36 +56,19 @@ footer
   height: 80%;
 }
 
-.carousel-img {
-  height: 200px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-img img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.carousel-indicators .active
-{
-background-color: #343a40;
-}
 
 @media (min-width: 375px)
 {
-  .carousel-img {
+  .text-phone
+  {
+    font-size: 1.1rem;
+  }
+  .image-phone img {
     height: 250px;
     width: 100%;
     overflow: hidden;
   }
 
-  .carousel-img img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-  }
   .btn
   {
       width:135px;
@@ -100,16 +89,14 @@ background-color: #343a40;
 
 @media (min-width: 425px)
 {
-  .carousel-img {
+  .text-phone
+  {
+    font-size: 1.2rem;
+  }
+  .image-phone img {
     height: 250px;
     width: 100%;
     overflow: hidden;
-  }
-
-  .carousel-img img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
   }
   .btn
   {
@@ -131,16 +118,14 @@ background-color: #343a40;
 
 @media (min-width: 576px)
 {
-  .carousel-img {
+  .text-tablet
+  {
+    font-size: 1.3rem;
+  }
+  .image-tablet img {
     height: 300px;
     width: 100%;
     overflow: hidden;
-  }
-
-  .carousel-img img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
   }
   .text-white
   {
@@ -169,17 +154,17 @@ background-color: #343a40;
 
 @media (min-width: 1024px)
 {
-  .carousel-img {
+  .all-big img {
     height: 400px;
     width: 100%;
     overflow: hidden;
+    display: none;
+  }
+  .all-big
+  {
+    font-size: 1.3rem;
   }
 
-  .carousel-img img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-  }
   .text-white
   {
     font-size: 4rem;
@@ -246,16 +231,14 @@ background-color: #343a40;
         padding-right: 0;
         font-size: 21px;
     }
-    .carousel-img {
+    .all-big img {
       height: 450px;
       width: 100%;
       overflow: hidden;
     }
-
-    .carousel-img img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
+    .all-big
+    {
+      font-size: 1.3rem;
     }
   }
   @media (min-width: 2560px)
@@ -293,10 +276,6 @@ background-color: #343a40;
     width: 90%;
     height: 90%;
   }
-  .carousel
-  {
-    font-size: 2.5rem;
-  }
   .text-center
   {
     font-size: 5rem;
@@ -309,17 +288,16 @@ background-color: #343a40;
   {
     font-size: 5rem;
   }
-  .carousel-img
+  .all-big img
   {
-    height: 900px;
+    height: 1000px;
     width: 100%;
     overflow: hidden;
   }
+  .all-big
+  {
+    font-size: 2.5rem;
+  }
 
-  .carousel-img img
-    {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
 }
+
