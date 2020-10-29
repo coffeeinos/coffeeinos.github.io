@@ -32,46 +32,174 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
    <link rel="stylesheet" href="css/main.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+
 
  </head>
  <body>
    <div class="container-fluid bg-dark">
      <h1 class="text-center"><div class="text-white">Coffeeinos</div></h1>
      <nav class="navbar navbar-expand-md navbar-light bg-dark stciky-top">
-       <div class="container-fluid">
-         <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
-        <a class="navbar-brand text-center w-100" href="#"><button type="button" class="btn btn-outline-light">Меню</button></a>
+         <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1 ">
+        <a class="navbar-brand text-left w-100" href="#"><button type="button" class="btn btn-outline-light">Меню</button></a>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
-        <a class="navbar-brand text-center w-100" href="#"><button type="button" class="btn btn-outline-light">Наши кофейни</button></a>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 order-2 order-sm-3 order-md-2 order-lg-1 order-xl-1">
+        <a class="navbar-brand text-left w-100" href="#"><button type="button" class="btn btn-outline-light">Наши кофейни</button></a>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-1 order-sm-1 order-md-1 order-lg-1 order-xl-1">
         <a class="navbar-brand text-center w-100" href="#"><img src="img/label.png"></a>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 order-3 order-sm-3 order-md-3 order-lg-1 order-xl-1">
-        <a class="navbar-brand text-center w-100" href="#"><button type="button" class="btn btn-outline-light">О нас</button></a>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 order-3 order-sm-2 order-md-3 order-lg-1 order-xl-1">
+        <a class="navbar-brand text-right w-100" href="#"><button type="button" class="btn btn-outline-light">О нас</button></a>
         </div>
         <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 order-3 order-sm-3 order-md-3 order-lg-1 order-xl-1">
-        <a class="navbar-brand text-center w-100" href="#"><button type="button" class="btn btn-outline-light">Сотрудничество</button></a>
+        <a class="navbar-brand text-right w-100" href="#"><button type="button" class="btn btn-outline-light">Сотрудничество</button></a>
         </div>
-            </div>
       </nav>
     </div>
       <h2 class="text-center">Меню недели</h2>
 
-       <div id="carousel" class="carousel slide" data-ride="carousel">
-   <ul class="carousel-indicators">
-     <li data-target="#carousel" data-slide-to="0" class="active"></li>
-     <li data-target="#carousel" data-slide-to="1"></li>
-     <li data-target="#carousel" data-slide-to="2"></li>
-   </ul>
-   <div class="carousel-inner">
-     <div class="carousel-item active">
-       <div class="container-fluid">
+
+      <div class="container-fluid d-none d-sm-block d-lg-none ml-3">
+
+      <div class="row image-tablet">
+
+        <div class="col-12">
+      <img class="d-block w-100" src="img/coffee2.jpg" alt="Первый слайд">
+    </div>
+
+       <div class="col-12">
+  <img class="d-block w-100" src="img/coffee5.jpg" alt="Второй слайд">
+      </div>
+
+      <div class="col-12">
+    <img class="d-block w-100" src="img/coffee1.jpg" alt="Третий слайд">
+  </div>
+
+      </div>
+
+    </div>
+
+       <div class="container-fluid d-none d-sm-block d-lg-none ml-3">
+       <div class="row text-tablet">
+         <div class="container-fluid">
+           <div class="row">
+         <div class="col-6 order-1">
+           <h3 class="text-left">О блюде</h3>
+           <p class="text-justify">С французского языка croissant неслучайно переводится как «полумесяц» – своей оригинальной формой сдоба напоминает лунный рожок. Она давно стала элементом национальной культуры, которым французы по праву гордятся. Редко кто в стране завтракает без свежайших, только что испеченных круассанов. Да что французов – весь мир покорили эти хрупкие и почти невесомые мучные изделия.</p>
+         </div>
+     <div class="col-6 order-1">
+       <h3 class="text-right">О кофе</h3>
+       <p class="text-justify">Капучино – это кофейный напиток, родиной которого является Италия. Но популярен капучино во всем мире. Он готовится из порции эспрессо и двух частей вспененного молока, стандартная порция около 120-150 мл.
+Название его связывают с именем итальянского ордена капуцинов, существовавшего в 17 в. Его монахи носили рясы схожего красно-коричневого цвета.</p>
+     </div>
+     </div>
+     </div>
+     <div class="container-fluid">
        <div class="row">
-         <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
+         <div class="col-6">
+           <h3 class="text-left">О блюде</h3>
+           <p class="text-justify">Победное мировое шествие бельгийские вафли начали в 1958 г., когда в Брюсселе проводилась Всемирная выставка. Вальтер Клейман (Cleyman) с женой и дочерью предлагал посетителям свои вафли с клубникой и сливками. Продукт пришёлся по вкусу, и 21 апреля 1962 г. они появились на выставке в Сиэттле, где стали мировым хитом.</p>
+         </div>
+     <div class="col-6">
+       <h3 class="text-right">О кофе</h3>
+       <p class="text-justify">Во время Второй мировой войны американские солдаты, высадившиеся в Италии, искали привычный для них напиток. Пить эспрессо они не могли из-за избыточной крепости и маленького объема. Тогда итальянцы решили разбавлять порцию эспрессо большим количеством воды, называя это уничижительным словом «американо».</p>
+     </div>
+     </div>
+     </div>
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-6">
+           <h3 class="text-left">О блюде</h3>
+           <p class="text-justify">Сэ́ндвич назван в честь изобретателя Джона Монтегю, 4-го графа Сэндвичского. По одной из версий, граф решил перекусить во время затянувшейся игры в криббедж, поэтому и заказал своему слуге еду между двумя ломтиками хлеба. Бутербдрод-сэндвич оказался очень удобен для быстрого перекуса. Это было в 1762 году, и с тех пор популярность сэндвичей необычайно возросла.</p>
+         </div>
+     <div class="col-6">
+       <h3 class="text-right">О кофе</h3>
+       <p class="text-justify">Кто изобрёл рецепт латте, достоверно неизвестно. В Италии распространена история о том, как один бармен решил добавить в подогретое молоко кофе для аромата. Австрийцы настаивают, что смешивали два ингредиента ещё во времена империи. Как бы ни появилось кофе латте, рецепт, пропорции и правила приготовления установили именно итальянцы.</p>
+     </div>
+      </div>
+      </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid d-block d-sm-none ml-3">
+
+    <div class="row image-phone">
+
+      <div class="col-12">
+    <img class="d-block w-100" src="img/coffee2.jpg" alt="Первый слайд">
+  </div>
+
+     <div class="col-12">
+<img class="d-block w-100" src="img/coffee5.jpg" alt="Второй слайд">
+    </div>
+
+    <div class="col-12">
+  <img class="d-block w-100" src="img/coffee1.jpg" alt="Третий слайд">
+</div>
+
+    </div>
+
+  </div>
+
+     <div class="container-fluid d-block d-sm-none ml-3 mr-xl-5">
+     <div class="row text-phone">
+       <div class="container-fluid">
+         <div class="row">
+       <div class="col-12 order-1">
+         <h3 class="text-left">О блюде</h3>
+         <p class="text-justify">С французского языка croissant неслучайно переводится как «полумесяц» – своей оригинальной формой сдоба напоминает лунный рожок. Она давно стала элементом национальной культуры, которым французы по праву гордятся. Редко кто в стране завтракает без свежайших, только что испеченных круассанов. Да что французов – весь мир покорили эти хрупкие и почти невесомые мучные изделия.</p>
+       </div>
+   <div class="col-12 order-2">
+     <h3 class="text-right">О кофе</h3>
+     <p class="text-justify">Капучино – это кофейный напиток, родиной которого является Италия. Но популярен капучино во всем мире. Он готовится из порции эспрессо и двух частей вспененного молока, стандартная порция около 120-150 мл.
+Название его связывают с именем итальянского ордена капуцинов, существовавшего в 17 в. Его монахи носили рясы схожего красно-коричневого цвета.</p>
+   </div>
+   </div>
+   </div>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-12 order-1">
+         <h3 class="text-left">О блюде</h3>
+         <p class="text-justify">Победное мировое шествие бельгийские вафли начали в 1958 г., когда в Брюсселе проводилась Всемирная выставка. Вальтер Клейман (Cleyman) с женой и дочерью предлагал посетителям свои вафли с клубникой и сливками. Продукт пришёлся по вкусу, и 21 апреля 1962 г. они появились на выставке в Сиэттле, где стали мировым хитом.</p>
+       </div>
+   <div class="col-12 order-2">
+     <h3 class="text-right">О кофе</h3>
+     <p class="text-justify">Во время Второй мировой войны американские солдаты, высадившиеся в Италии, искали привычный для них напиток. Пить эспрессо они не могли из-за избыточной крепости и маленького объема. Тогда итальянцы решили разбавлять порцию эспрессо большим количеством воды, называя это уничижительным словом «американо».</p>
+   </div>
+   </div>
+   </div>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-12 order-1">
+         <h3 class="text-left">О блюде</h3>
+         <p class="text-justify">Сэ́ндвич назван в честь изобретателя Джона Монтегю, 4-го графа Сэндвичского. По одной из версий, граф решил перекусить во время затянувшейся игры в криббедж, поэтому и заказал своему слуге еду между двумя ломтиками хлеба. Бутербдрод-сэндвич оказался очень удобен для быстрого перекуса. Это было в 1762 году, и с тех пор популярность сэндвичей необычайно возросла.</p>
+       </div>
+   <div class="col-12 order-2">
+     <h3 class="text-right">О кофе</h3>
+     <p class="text-justify">Кто изобрёл рецепт латте, достоверно неизвестно. В Италии распространена история о том, как один бармен решил добавить в подогретое молоко кофе для аромата. Австрийцы настаивают, что смешивали два ингредиента ещё во времена империи. Как бы ни появилось кофе латте, рецепт, пропорции и правила приготовления установили именно итальянцы.</p>
+   </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid d-none d-md-block ml-3">
+
+  <div class="row all-big">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
            <h3 class="text-left">О блюде</h3>
            <p class="text-justify">С французского языка croissant неслучайно переводится как «полумесяц» – своей оригинальной формой сдоба напоминает лунный рожок. Она давно стала элементом национальной культуры, которым французы по праву гордятся. Редко кто в стране завтракает без свежайших, только что испеченных круассанов. Да что французов – весь мир покорили эти хрупкие и почти невесомые мучные изделия.</p>
          </div>
@@ -83,11 +211,9 @@
        <p class="text-justify">Капучино – это кофейный напиток, родиной которого является Италия. Но популярен капучино во всем мире. Он готовится из порции эспрессо и двух частей вспененного молока, стандартная порция около 120-150 мл.
 Название его связывают с именем итальянского ордена капуцинов, существовавшего в 17 в. Его монахи носили рясы схожего красно-коричневого цвета.</p>
      </div>
-   </div>
-   </div>
      </div>
-     <div class="carousel-item">
-       <div class="container-fluid">
+     </div>
+     <div class="container-fluid">
        <div class="row">
          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
            <h3 class="text-left">О блюде</h3>
@@ -102,10 +228,8 @@
      </div>
    </div>
    </div>
-     </div>
-     <div class="carousel-item">
-       <div class="container-fluid">
-       <div class="row">
+   <div class="container-fluid">
+     <div class="row">
          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
            <h3 class="text-left">О блюде</h3>
            <p class="text-justify">Сэ́ндвич назван в честь изобретателя Джона Монтегю, 4-го графа Сэндвичского. По одной из версий, граф решил перекусить во время затянувшейся игры в криббедж, поэтому и заказал своему слуге еду между двумя ломтиками хлеба. Бутербдрод-сэндвич оказался очень удобен для быстрого перекуса. Это было в 1762 году, и с тех пор популярность сэндвичей необычайно возросла.</p>
@@ -119,9 +243,10 @@
      </div>
    </div>
    </div>
-     </div>
    </div>
-   </div>
+  </div>
+
+
 <div class="container-fluid">
   <div class="mt-4">
 <div class="text-center">
@@ -147,7 +272,68 @@
 </div>
 </div>
 </div>
-</div>
 </footer>
+</div>
+
+
+<script type="text/javascript">
+$('.image-tablet').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 10000,
+  cssEase: 'linear',
+  asNavFor: '.text-tablet'
+});
+</script>
+<script type="text/javascript">
+$('.text-tablet').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  asNavFor: '.image-tablet'
+});
+</script>
+
+<script type="text/javascript">
+$('.image-phone').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 10000,
+  cssEase: 'linear',
+  asNavFor: '.text-phone'
+});
+</script>
+<script type="text/javascript">
+$('.text-phone').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  asNavFor: '.image-phone'
+});
+</script>
+
+<script type="text/javascript">
+$('.all-big').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  autoplay: true,
+  autoplaySpeed: 10000,
+  cssEase: 'linear',
+});
+</script>
+
+
    </body>
  </html>
